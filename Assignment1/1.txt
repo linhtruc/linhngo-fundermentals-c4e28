@@ -1,0 +1,15 @@
+# Check a variable's type, try this:
+>>> type("Hello, World!")
+<type 'str'>
+>>> type(17)
+<type 'int'>
+
+# SyntaxError
+If you give a variable an illegal name, tou get the SyntaxError
+Example:
+>>> 89dgdfb747 = "something"
+SyntaxError: invalid syntax
+>>> %hjhg = "moon jellyfish"
+SyntaxError: invalid syntax
+>>> del = 9846739757673
+SyntaxError: invalid syntax
