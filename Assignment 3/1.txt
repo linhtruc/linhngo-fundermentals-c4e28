@@ -1,0 +1,5 @@
+# Nested list
+A Nested list is a list that appears as an element in another list
+
+# Both int and str?
+Yes, it can
