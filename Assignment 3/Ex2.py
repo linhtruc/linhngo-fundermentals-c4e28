@@ -60,4 +60,5 @@ print (sheep)
 
 #6
 total = sum(sheep)
+print ("Total: ", total)
 print ("I would get", total, "* 2$ = ", total * 2, "$")
