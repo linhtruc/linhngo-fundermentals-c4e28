@@ -10,7 +10,7 @@ print ("My biggest sheep size: ",max(sheep))
 
 #3
 position = sheep.index(max(sheep))
-print ("Bigest is: ", sheep[position])
+print ("Biggest is: ", sheep[position])
 print ("Biggest size replace by 8, new sheep sizes: ")
 sheep[position] = 8
 print (sheep)
@@ -60,4 +60,5 @@ print (sheep)
 
 #6
 total = sum(sheep)
+print ("Total: ", total)
 print ("I would get", total, "* 2$ = ", total * 2, "$")
