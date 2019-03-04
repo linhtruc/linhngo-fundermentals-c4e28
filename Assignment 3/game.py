@@ -1,10 +1,12 @@
 # Jumble game about fruit
 import random
+
 print("Welcome to fruit jumble game!!!")
 n = input("Press any key to enter")
 fruit = ["pineapple", "pomegranate", "strawberry", "star fruit", "mango", "lemon", "avocado"]
 print("Let's start!")
-print("You have 5 times")
+
+print ("You have 5 times")
 word = random.choice(fruit)
 l = list (word)
 random.shuffle(l)
