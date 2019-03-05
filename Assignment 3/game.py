@@ -3,7 +3,7 @@ import random
 
 print("Welcome to fruit jumble game!!!")
 n = input("Press any key to enter")
-fruit = ["pineapple", "pomegranate", "strawberry", "star fruit", "mango", "lemon", "avocado"]
+fruit = ["pineapple", "pomegranate", "strawberry", "starfruit", "mango", "lemon", "avocado"]
 print("Let's start!")
 
 print ("You have 5 times")
@@ -23,6 +23,7 @@ while loop:
         loop = False
     elif count ==5:
         print("You lose")
+        print("Answer is: ", word)
         break
     else:
         print ("Try again")
