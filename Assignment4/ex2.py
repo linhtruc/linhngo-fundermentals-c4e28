@@ -1,3 +1,5 @@
+#1
+
 prices = {
     "banana": 4,
     "apple": 2,
@@ -13,17 +15,21 @@ stocks = {
 for key in stocks.keys():
     print(key)
 print ()
-while True:
-    n = input("Enter key:  ")
-    p1 = prices[n]
-    s1 = stocks[n]
-    print (n)
-    print ("prices:",p1)
-    print ("stocks:",s1)
-    q = (input("Do you want to continue? (Y/N)")).lower()
-    if q == "n":
-        break
-    elif q == "y":
-        print()
-    else:
-        print ("Please try again!")
+# 2
+# while True:
+#     n = input("Enter key: ")
+#     if n in prices:
+#         p1 = prices[n]
+#         s1 = stocks[n]
+#         print (n)
+#         print ("prices:",p1)
+#         print ("stocks:",s1)
+#     else:
+#         print ("Please try agian!")
+
+# 3
+total = 0
+for i in prices:
+    total = prices[i]*prices[i]+total
+print (total)
+
