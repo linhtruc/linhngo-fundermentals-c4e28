@@ -6,7 +6,7 @@ def is_inside(x, y):
         else:
             return False
     else:
-        return True
+        return False
     
 print (is_inside([200, 120], [140, 60, 100, 200]))
 
