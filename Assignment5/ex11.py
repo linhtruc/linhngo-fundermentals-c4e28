@@ -8,7 +8,10 @@ def is_inside(x, y):
     else:
         return False
     
-print (is_inside([200, 120], [140, 60, 100, 200]))
+if is_inside([200, 120], [140, 60, 100, 200]) = True:
+    print("Your function is correct")
+else:
+    print("Ooops, bugs detected")
 
             
 
