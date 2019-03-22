@@ -8,7 +8,7 @@ def index():
 @app.route('/about_me')
 def about_me():
     return ('''
-    I am no one.
+    I am Cheshire cat. Do you know me? "D
     ''')
 
 @app.route('/school')
