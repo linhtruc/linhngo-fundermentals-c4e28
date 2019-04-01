@@ -3,8 +3,6 @@ from flask import *
 from pymongo import MongoClient
 from faker import Faker
 from random import randint, choice
-from bson.objectid import ObjectId
-
 
 mongo_uri = "mongodb+srv://admin:admin@c4e28-xzlj8.mongodb.net/test?retryWrites=true"
 client = MongoClient(mongo_uri)
